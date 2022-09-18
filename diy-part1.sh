@@ -14,11 +14,12 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
- echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
- echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+# echo 'src-git kenzok https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git openclash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
 # git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 svn co https://github.com/sirpdboy/sirpdboy-package/trunk/luci-app-rebootschedule package/luci-app-rebootschedule
 # svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall package/luci-app-passwall
