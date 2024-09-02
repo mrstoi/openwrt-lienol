@@ -21,5 +21,6 @@ echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.def
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/solarflows/luci-app-qBittorrent-enhanced.git package/luci-app-qBittorrent-enhanced
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
+git clone https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon  
 
   
